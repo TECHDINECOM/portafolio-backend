@@ -1,0 +1,14 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Spring Boot-PortafolioApplication<portafolio>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.backendapi.portafolio.PortafolioApplication",
+      "projectName": "portafolio",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    }
+  ]
+}
