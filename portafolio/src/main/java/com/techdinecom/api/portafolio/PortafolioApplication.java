@@ -2,8 +2,9 @@ package com.techdinecom.api.portafolio;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.Bean;
-import org.springframework.jdbc.datasource.DriverManagerDataSource;
+/*import org.springframework.context.annotation.Bean;
+import org.springframework.jdbc.datasource.DriverManagerDataSource;*/
+
 
 @SpringBootApplication
 public class PortafolioApplication {
@@ -12,7 +13,7 @@ public class PortafolioApplication {
 		SpringApplication.run(PortafolioApplication.class, args);
 	}
 	
-	@Bean(name = "dataSource")
+	/*@Bean(name = "dataSource")
 	public DriverManagerDataSource dataSource() {
 	
 	    DriverManagerDataSource dataSource = new DriverManagerDataSource();
@@ -22,6 +23,6 @@ public class PortafolioApplication {
 	    dataSource.setPassword("veblairrch");
 
 	    return dataSource;
-	}
+	}*/
 
 }
