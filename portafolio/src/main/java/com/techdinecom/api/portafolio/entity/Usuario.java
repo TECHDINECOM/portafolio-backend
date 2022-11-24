@@ -76,7 +76,7 @@ public class Usuario implements Serializable {
 	private Integer estatus;
 
 	@ManyToMany(fetch = FetchType.EAGER)
-	@JoinTable(name = "roles_usuario", joinColumns = @JoinColumn(name = "id_usuario"), inverseJoinColumns = @JoinColumn(name = "id_rol"))
+	@JoinTable(name = "tbl_roles_usuario", joinColumns = @JoinColumn(name = "id_usuario"), inverseJoinColumns = @JoinColumn(name = "id_rol"))
 	private Set<Roles> rol;
 
 	
